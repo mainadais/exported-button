@@ -5,9 +5,9 @@ const Button = () => {
 
   return (
     <div className="counter">
-      <button onClick={() => setstate(state + 1)}>+</button>
+      <button onClick={() => setstate(state + 3)}>+</button>
       <span>{state}</span>
-      <button onClick={() => setstate(state - 1)}>-</button>
+      <button onClick={() => setstate(state - 3)}>-</button>
     </div>
   );
 };
