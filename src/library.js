@@ -1,7 +1,2 @@
-import Form from './js/components/Form';
-import Button from './js/components/Button';
-
-export default {
-    Form,
-    Button
-}
+export { default as Form } from "./js/components/Form";
+export { default as Button } from "./js/components/Button";
